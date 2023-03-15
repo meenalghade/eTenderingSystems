@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="bootstrap-5.3/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./Style.css">
+    <script src="./Script.js"></script>  
+    <title>Tender Publish</title>
+  </head>
+  <body>
+  <div "w-auto p-3">Tender Publish </div><br>
+  <form action="/action.php" class="form1"> Fields in red color are Mandatory*
+  <br>  
+  <br>
+  <div class="div2">
+  <label for="tender fees">Tender Fees</label>&emsp;&emsp;
+  <input type="text" id="tname" name="tname" placeholder="Type your fees"><br><br>
+  <label for="emd">EMD</label>&emsp;&emsp;&emsp;&emsp;&emsp;
+  <input type="text" id="tname" name="tname" placeholder="EMD"><br><br>
+
+  <label for="city">Select Buyer User</label> &emsp;&emsp;
+  <select id="name" name="name">
+  <option value="001">User A</option>
+  <option value="002">User B</option>
+  <option value="003">User C</option>
+  </select><br><br>
+  <div class="div3" "w-auto p-3">
+  <table class= "table table-bordered border-primary table-striped">
+    <thead class="table-primary p-3">
+    <tr>
+    <th class="check" class="check" ><input  type="checkbox" id="checkAll" name="scales" unchecked</th>
+    <th class="">User</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td><input type="checkbox" id="scales" name="scales" unchecked></td>
+    <td>User A</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="scales" name="scales" unchecked></td>
+      <td>User B</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="scales" name="scales" unchecked></td>
+      <td>User C</td>
+    </tr>
+    </tbody>
+    </table>
+  </div>
+    <label for="date">Preview Date</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <input type="date" id="date" name="date">&emsp;&nbsp;Time: &emsp;&emsp;<input type="time" id="time" name="time">
+    <br>
+    <br>
+    <label for="date">Submission Begin Date </label>&emsp;
+    <input type="date" id="date" name="date">&emsp;&emsp;Time: &emsp;&emsp;<input type="time" id="time" name="time">
+    <br>
+    <br>
+    <label for="date">Submission End Date</label>&emsp;&emsp;
+    <input type="date" id="date" name="date">&emsp;&emsp;Time: &emsp;&emsp;<input type="time" id="time" name="time">
+    <br>
+    <br>
+    <label for="city">Select user to Publish</label> &emsp;&emsp;
+  <select id="name" name="name">
+  <option value="001">User A</option>
+  <option value="002">User B</option>
+  <option value="003">User C</option>
+  </select><br><br>
+  <br>
+  <div class="right">
+  <input id = "b1" class="btn btn-primary" type="submit" value="Save & Exit">
+  </div>
+  </div>
+  </form>
+  </body>
+<script src="bootstrap-5.3/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

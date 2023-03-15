@@ -1,0 +1,40 @@
+*{
+    margin-left: 2px;
+    border-radius: 3px;
+    margin: 2px;
+    padding: 1px;
+   background-color:whitesmoke
+}
+.div1{
+    background-color: rgba(195, 245, 214, 0.632);
+    font: size 14px;
+    font-weight: bold; 
+    font-style:normal;
+    text-align:left
+    box-sizing: border-box;
+}
+
+.div2{
+    margin: 1%;
+    color: gray;
+
+}
+
+.div3{
+   text-align: center;
+   width: 600px;
+   
+}
+
+.form1{
+    color: red;
+    font: size 13px;
+    font-weight: bold; 
+}
+
+
+
+
+
+
+
