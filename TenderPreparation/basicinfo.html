@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Basic Info</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+       
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-10">
+                    <label for="title">Reference/Title</label>
+                </div>
+                <div class="col">
+                    <input type="text" id="title">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-10">
+                    <label for="description">Description</label>
+                </div>
+                <div class="col">
+                    <input type="text" id="description">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-10">
+                    <label for="supplier">Select Specific Supplier</label>
+                </div>
+                <div class="col">
+                    <input type="radio" value="yes" checked> Yes</input>
+                    <br>
+                    <input type="radio"  value="no"> No</input>
+
+                    <div>
+                        <label id="sS" for="search" required >Search Supplier</label>
+                        <select name="search" id="search">
+                            <option value=" ">Supplier A</option>
+                        </select>
+                        <table class="table">
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>Suppliers</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" checked></td>
+                                <td>Supplier A</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>Supplier B</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" checked></td>
+                                <td>Supplier C</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-10">
+                    <label for="supplier">Get Documents from Bidder</label>
+                </div>
+                <div class="col">
+                    <input type="radio" value="yes" checked> Yes</input>
+                    <br>
+                    <input type="radio"  value="no"> No</input>
+                </div>
+            </div>
+
+            <div class="row">
+                <input type="submit" value="Save & Next">
+            </div>  
+        </div>  
+    </body>
+</html>
