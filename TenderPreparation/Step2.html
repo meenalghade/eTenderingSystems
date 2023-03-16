@@ -12,7 +12,7 @@
     <select name="Documents" id="Documents" class="Documents">Documents
         <option>Aadhar Card</option>
         <option>Pan Card</option>
-        <option>Light Bill</option>
+        <option>Balance Sheet</option>
     </select>
 </div>
 <div class="label">
@@ -27,8 +27,48 @@
         <option>10MB</option>
     </select>
 </div>
-<div class="label">
+<div class="Mandatory">
     <label>Mandatory</label>
+    <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
 </div>
+<button class="Documents">Add</button>
+<table class="table" border="1px">
+    <tr>
+        <th>Document</th>
+        <th>Format</th>
+        <th>Size</th>
+        <th>Mandatory</th>
+        <th>Select</th>
+    </tr>
+    <tr>
+        <td>Aadhar Card</td>
+        <td>PDF</td>
+        <td>1MB</td>
+        <td>Yes</td>
+        <td><input type="checkbox"></td>
+    </tr>
+    <tr>
+        <td>Balance Sheet</td>
+        <td>PDF</td>
+        <td>50MB</td>
+        <td>NO</td>
+        <td><input type="checkbox" checked></td>
+    </tr>
+    <tr>
+        <td>PAN</td>
+        <td>PNG</td>
+        <td>5MB</td>
+        <td>Yes</td>
+        <td><input type="checkbox"></td>
+    </tr>
+</table>
+<button class="Documents">Edit</button>
+<button class="Documents">Delete</button><br><br>
+<button class="Documents">Save & Next</button>
+
+
 </body>
 </html>
